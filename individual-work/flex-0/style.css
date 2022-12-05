@@ -1,0 +1,20 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: green;
+}
+.flex-container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: green;
+    margin-top: 300px;
+}
+.item {
+    background-color: pink;
+    padding: 50px;
+}
+.background {
+    background-color: green;
+}
