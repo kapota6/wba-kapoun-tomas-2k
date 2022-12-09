@@ -1,0 +1,23 @@
+body  {
+    background-image: url(Cosmic-Gradient-14.jpg);
+    background-size: 100%;
+  }
+.flexbox{
+    display: flex;
+    height: 60px;
+    background-color: rgb(46, 5, 113,0.3);
+    align-items: center;
+    justify-content: space-evenly;
+}
+.item{
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.lorem{
+    margin: 200px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 20px white;
+}
