@@ -1,0 +1,30 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 80%;
+  margin: auto;
+}
+.header{
+  position: fixed;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  width: 80%;
+
+}
+.navbar{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.header-logo img{
+  height: 90px;
+  width: 90px;
+  padding: 5px;
+}
+
+/* Barvy
+Světlá barva pozadí: #f2b880
+Tmavší barvy pozadí za obrázkem: #e88121
+Barva text v oranžovém pozadí: #752400
+*/
