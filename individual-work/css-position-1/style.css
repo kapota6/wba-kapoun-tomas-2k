@@ -10,6 +10,7 @@ body {
   justify-content: space-between;
   background-color: white;
   width: 80%;
+  top: 0;
 
 }
 .navbar{
@@ -22,7 +23,38 @@ body {
   width: 90px;
   padding: 5px;
 }
-
+.headline-1{
+  margin-top: 130px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 40px;
+}
+.hero-section{
+  background-color: #f2b880;
+  display: flex;
+  align-items: center;
+}
+.hero-section img{
+  margin: 40px;
+  height: 300px;
+  width: auto;
+  box-shadow: -15px -15px #e88121;
+}
+.hero-text{
+  margin: 30px;
+  color: #752400;
+}
+.text{
+  width: 40%;
+  margin: auto;
+}
+.top-link img{
+  position: fixed;
+  top: 90%;
+  left: 95%;
+  height: 40px;
+  width: auto;
+}
 /* Barvy
 Světlá barva pozadí: #f2b880
 Tmavší barvy pozadí za obrázkem: #e88121
