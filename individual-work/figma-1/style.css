@@ -1,9 +1,9 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
 .header-bg {
-  width: auto;
   background-color: #CBC1B1;
   height: 80px;
   position: fixed;
@@ -59,9 +59,8 @@ body {
 }
 
 .footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
-  left: 0;
   background-color: #CBC1B1;
   width: 100%;
   height: 80px;
@@ -109,9 +108,57 @@ button {
 .bg-img {
   position: relative;
   z-index: -1;
-  top: -80;
-}
-.bg-img img {
+  background-image: url(images/hero\ image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
   width: 100%;
-  height: auto;
+  display: flex;
+  align-items: end;
+  justify-content: right;
+}
+
+.text2 {
+  display: grid;
+  width: 50%;
+  height: 40%;
+  background-color: rgba(170, 162, 162, 0.4);
+  color: white;
+  text-align: center;
+  margin: 20px;
+}
+.text2 button {
+  width: 100px;
+  height: 30px;
+}
+
+.nabidky {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
+}
+.nabidky h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.mista {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+.mista img {
+  width: 100%;
+}
+
+.but {
+  display: flex;
+  height: 150px;
+  align-items: center;
+}
+.but button {
+  background-color: #CBC1B1;
+  width: 100px;
+  height: 40px;
 }/*# sourceMappingURL=style.css.map */
